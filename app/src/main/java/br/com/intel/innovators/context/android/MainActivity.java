@@ -66,15 +66,15 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onEvent(SensingConnectionFail e) {
-        messageLabel.setText(getString(R.string.label_sensing_connection_fail));
+        messageLabel.setText(R.string.label_sensing_connection_fail);
     }
 
     public void onEvent(SensingStartFail e) {
-        messageLabel.setText(getString(R.string.label_sensing_start_fail));
+        messageLabel.setText(R.string.label_sensing_start_fail);
     }
 
     public void onEvent(SensingStartSuccess e) {
-        messageLabel.setText(getString(R.string.label_sensing_start_success));
+        messageLabel.setText(R.string.label_sensing_start_success);
         startAudioClassification();
     }
 

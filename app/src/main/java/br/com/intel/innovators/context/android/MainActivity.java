@@ -51,10 +51,6 @@ public class MainActivity extends AppCompatActivity {
         super.onStop();
     }
 
-    @Override protected void onDestroy() {
-        super.onDestroy();
-    }
-
     public void onEvent(AudioClassification e) {
         final String audioName = e.getMostProbableAudio().getName().name();
         final int probability = e.getMostProbableAudio().getProbability();

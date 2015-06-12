@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ContextSDKPlayground</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="label_sensing_connection_fail">Erro ao conectar com Sensing</string>
+    <string name="label_sensing_start_fail">Erro ao iniciar Sensing</string>
+    <string name="label_sensing_start_success">Sensing iniciado com sucesso</string>
+</resources>
